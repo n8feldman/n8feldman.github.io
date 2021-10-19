@@ -971,6 +971,12 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+#portfolio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /*--------------------------------------------------------------
 # Contact
@@ -1111,11 +1117,4 @@ section {
 }
 #footer .credits a {
   color: #040605;
-}
-
-#portfolio-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
 }
