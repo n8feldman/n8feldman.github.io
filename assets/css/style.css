@@ -468,6 +468,17 @@ section {
   bottom: 0;
   left: calc(50% - 25px);
 }
+.section-title h3::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #040605;
+  bottom: 0;
+  left: calc(50% - 25px);
+  margin-top: 15px;
+}
 .section-title p {
   margin-bottom: 0;
 }
@@ -1109,6 +1120,10 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   grid-auto-rows: minmax(100px, auto);
+}
+.MCDCC-grid div {
+  border: 2px solid grey;
+  padding-top: 15px;
 }
 .MCDCC-photo-1 {
   grid-column: 1;
