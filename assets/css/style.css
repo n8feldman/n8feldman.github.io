@@ -1125,6 +1125,9 @@ section {
   border: 2px solid grey;
   padding-top: 15px;
 }
+.MCDCC-grid img {
+  border: 2px solid black;
+}
 .MCDCC-photo-1 {
   grid-column: 1;
   grid-row: 1;
