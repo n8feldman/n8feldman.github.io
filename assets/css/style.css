@@ -1164,6 +1164,10 @@ section {
   grid-column-end: 3;
   grid-row: 4;
 }
+.MCDCC-text {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 /*--------------------------------------------------------------
 # Footer
